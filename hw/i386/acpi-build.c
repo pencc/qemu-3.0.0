@@ -2278,7 +2278,7 @@ static void build_srat_hotpluggable_memory(GArray *table_data, uint64_t base,
              * Memory devices may override proximity set by this entry,
              * providing _PXM method if necessary.
              */
-            build_srat_memory(numamem, end - 1, 1, default_node,
+            build_srat_memory(numamem, cur, len, default_node,
                               MEM_AFFINITY_HOTPLUGGABLE | MEM_AFFINITY_ENABLED);
             break;
         }
