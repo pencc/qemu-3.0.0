@@ -1,5 +1,5 @@
 1) How to Build
-#./configure  --prefix=/usr --enable-spice --enable-usb-redir --enable-kvm   --enable-libnfs --enable-system  --enable-libiscsi  --target-list=aarch64-softmmu --target-list=x86_64-softmmu
+# ./configure  --prefix=/usr --enable-spice --enable-usb-redir --enable-kvm   --enable-libnfs --enable-system  --enable-libiscsi  --target-list=aarch64-softmmu,x86_64-softmmu
 $ make
 # make install
 
